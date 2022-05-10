@@ -1,6 +1,6 @@
 const serverUrl = 'http://127.0.0.1:5500/';
 const itemsPath = 'items/';
-const imagesPath = 'img/';
+const imagesPath = 'img/items.json';
 
 window.onload = getData();
 
