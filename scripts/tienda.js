@@ -7,7 +7,7 @@ document.addEventListener(`click`, (event) => {
 // const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
 // addToShoppingCartButtons.forEach((addToCartButton) => {
 //     addToCartButton.addEventListener('click', addToCartClicked);
-// });
+// });                                                                  quedo inutil por el json :o
 
 
 // BASE
@@ -63,7 +63,7 @@ function addItemToShoppingCart(itemTitle, itemPrice, itemImage) {
         </div>
         <div class="col-2">
             <div class="shopping-cart-price d-flex align-items-center h-100 border-bottom pb-2 pt-3">
-                <p class="item-price mb-0 shoppingCartItemPrice">${itemPrice}</p>
+                <p class="item-price mb-0 shoppingCartItemPrice">${itemPrice}</p> <p class="item-price mb-0 shoppingCartItemPrice"> $ </p>
             </div>
         </div>
         <div class="col-4">

@@ -30,7 +30,7 @@ function createDomElement(item) {
             <h3 class="item-title">${item.title}</h3>
             <img class="item-image" src=${serverUrl}${imagesPath}${item.image}>
             <div class="item-details">
-                <h4 class="item-price">$${item.price}</h4>
+                <h4 class="item-price">${item.price}</h4><h4 class="item-price">$</h4>
                 <button class="item-button btn btn-primary addToCart">AÑADIR AL CARRITO</button>
             </div>
         </div>
