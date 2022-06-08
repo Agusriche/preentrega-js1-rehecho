@@ -1,7 +1,13 @@
-const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
-addToShoppingCartButtons.forEach((addToCartButton) => {
-    addToCartButton.addEventListener('click', addToCartClicked);
-});
+document.addEventListener(`click`, (event) => {
+    if(event.target && event.target.className.includes(`addToCart`)) {
+        addToCartClicked(event);
+    }
+})
+
+// const addToShoppingCartButtons = document.querySelectorAll('.addToCart');
+// addToShoppingCartButtons.forEach((addToCartButton) => {
+//     addToCartButton.addEventListener('click', addToCartClicked);
+// });
 
 
 // BASE
